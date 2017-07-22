@@ -20,6 +20,9 @@ class Navigation extends React.Component {
         <Link className={s.link} to="/projects">
           My Projects
         </Link>
+        <Link className={s.link} to="/blog">
+          Blog
+        </Link>
         <Link className={s.link} to="/me">
           Me
         </Link>

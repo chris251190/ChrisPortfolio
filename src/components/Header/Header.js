@@ -33,7 +33,7 @@ class Header extends React.Component {
           </Link>
           <div className={s.banner}>
             <h1 className={s.bannerTitle}>Christian Lehr</h1>
-            <p className={s.bannerDesc}>Projects made by me</p>
+            <p className={s.bannerDesc}>Fullstack Developer</p>
           </div>
         </div>
       </div>
