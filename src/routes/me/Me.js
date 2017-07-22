@@ -11,6 +11,7 @@ import React from 'react';
 import PropTypes from 'prop-types';
 import withStyles from 'isomorphic-style-loader/lib/withStyles';
 import s from './Me.css';
+import Image from './Image';
 
 class Me extends React.Component {
   static propTypes = {
@@ -25,6 +26,7 @@ class Me extends React.Component {
             {this.props.title}
           </h1>
           <p>...</p>
+          <Image source="http://via.placeholder.com/350x150" />
         </div>
       </div>
     );
