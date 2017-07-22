@@ -9,9 +9,9 @@
 
 import React from 'react';
 import Layout from '../../components/Layout';
-import Contact from './Me';
+import Me from './Me';
 
-const title = 'Me Us';
+const title = 'About me';
 
 function action() {
   return {
@@ -19,7 +19,7 @@ function action() {
     title,
     component: (
       <Layout>
-        <Contact title={title} />
+        <Me title={title} />
       </Layout>
     ),
   };
